@@ -20,6 +20,9 @@ const Navbar = ({theme, setTheme}) => {
             <a href="#client" className='sm:hover:border-b'>Client</a>
             <a href="#contact-us" className='sm:hover:border-b'>Contact Us</a>
 
+
+            
+
           </div>
 
           <div>
