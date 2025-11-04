@@ -21,7 +21,7 @@ const Navbar = ({theme, setTheme}) => {
             <a href="#contact-us" className='sm:hover:border-b'>Contact Us</a>
 
 
-            
+{/*            Testing */}
 
           </div>
 
