@@ -11,14 +11,14 @@ const Navbar = ({ theme, setTheme }) => {
             : 'bg-gradient-to-r from-[#6EC1E4]/90 via-[#A678E3]/80 to-[#1E40AF]/90 backdrop-blur-xl shadow-md'
         }`}
     >
-      {/* Logo */}
+ 
       <img
         src={assets.logo1}
         alt="Techspire Solutions"
         className="w-36 sm:w-44 hover:scale-105 transition-transform drop-shadow-lg"
       />
 
-      {/* Links */}
+    
       <div
         className={`flex items-center gap-6 text-sm font-semibold transition-all 
         ${theme === 'dark' ? 'text-white' : 'text-white'}`}
@@ -38,7 +38,7 @@ const Navbar = ({ theme, setTheme }) => {
         ))}
       </div>
 
-      {/* Connect Button */}
+   
       <a
         href="#contact-us"
         className="hidden sm:flex items-center gap-2 text-sm font-semibold 
