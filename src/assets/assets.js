@@ -1,9 +1,10 @@
 import logo from './logo.svg'
 import arrow_icon from './arrow_icon.svg'
+import sun_icon from './sun_icon.svg'
+import moon_icon from './moon_icon.svg'
 import group_profile from './group_profile.png'
 import bgImage1 from './bgImage1.png'
 import bgImage2 from './bgImage2.png'
-import hero_img from './hero_img.png'
 import microsoft_logo from './microsoft_logo.png'
 import zoom_logo from './zoom_logo.png'
 import rakuten_logo from './rakuten_logo.png'
@@ -27,9 +28,8 @@ import logo_dark from './logo_dark.svg'
 import airbnb_logo from './airbnb_logo.svg'
 import google_logo from './google_logo.svg'
 import menu_icon_dark from './menu_icon_dark.svg'
-import sun_icon from './sun_icon.svg'
-import moon_icon from './moon_icon.svg'
 import logo1 from './logo1.png'
+import hero_bg from './hero_bg.jpeg'
 
 
 export const company_logos = [
@@ -48,7 +48,7 @@ const assets = {
   group_profile,
   bgImage1,
   bgImage2,
-  hero_img,
+  hero_bg,
   ads_icon,
   content_icon,
   marketing_icon,
