@@ -29,7 +29,6 @@ import airbnb_logo from './airbnb_logo.svg'
 import google_logo from './google_logo.svg'
 import menu_icon_dark from './menu_icon_dark.svg'
 import logo1 from './logo1.png'
-import hero_bg from './hero_bg.jpeg'
 
 
 export const company_logos = [
@@ -48,7 +47,11 @@ const assets = {
   group_profile,
   bgImage1,
   bgImage2,
-  hero_bg,
+  hero_bg: bgImage1,
+  microsoft_logo,
+  zoom_logo,
+  rakuten_logo,
+  coinbase_logo,
   ads_icon,
   content_icon,
   marketing_icon,
@@ -67,7 +70,9 @@ const assets = {
   logo_dark,
   menu_icon_dark,
   sun_icon,
-  moon_icon
+  moon_icon,
+  airbnb_logo,
+  google_logo
 }
 
 export default assets

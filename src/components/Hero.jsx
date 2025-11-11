@@ -1,5 +1,5 @@
 import React from "react";
-import assets from "../assets/assets";
+import hero_bg from "../assets/hero_bg.jpeg";  
 
 const Hero = () => {
   return (
@@ -8,7 +8,7 @@ const Hero = () => {
       className="relative w-full h-[90vh] flex items-center justify-center text-center text-white"
     >
       <img 
-        src={assets.hero_bg}
+        src={hero_bg}
         alt="Hero background"
         className="absolute inset-0 w-full h-full object-cover brightness-75"
       />
