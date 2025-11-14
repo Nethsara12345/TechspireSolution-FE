@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from "./components/Hero"
 import Client from "./components/Client";
 import Protfolio from './components/Protfolio';
+import ContactUs from './components/ContactUs';
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
        <Hero />
        <Client />
        <Protfolio />
+       <ContactUs />
     </div>
   )
 }
