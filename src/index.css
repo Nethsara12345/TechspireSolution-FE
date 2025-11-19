@@ -14,3 +14,67 @@
   font-family: "Manrope", sans-serif;
   font-weight: 500;
 }
+
+/* Technologies Slider Styles */
+.tech-slider-container {
+  overflow: hidden;
+}
+
+.tech-slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(90deg, 
+    rgba(255,255,255,0) 0%, 
+    rgba(255,255,255,1) 10%, 
+    rgba(255,255,255,1) 90%, 
+    rgba(255,255,255,0) 100%);
+}
+
+.dark .tech-slider {
+  background: linear-gradient(90deg, 
+    rgba(0,0,0,0) 0%, 
+    rgba(0,0,0,1) 10%, 
+    rgba(0,0,0,1) 90%, 
+    rgba(0,0,0,0) 100%);
+}
+
+.tech-track {
+  display: flex;
+  gap: 3rem;
+  animation: tech-scroll 30s linear infinite;
+  width: fit-content;
+}
+
+.tech-logo {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+  opacity: 0.9;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.tech-logo:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+@keyframes tech-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 640px) {
+  .tech-logo {
+    height: 35px;
+  }
+  
+  .tech-track {
+    gap: 2rem;
+  }
+}

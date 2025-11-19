@@ -29,6 +29,21 @@ import airbnb_logo from './airbnb_logo.svg'
 import google_logo from './google_logo.svg'
 import menu_icon_dark from './menu_icon_dark.svg'
 import logo1 from './logo1.png'
+import port01 from './port01.jpg'
+import icon1 from './icon1.png'
+import icon2 from './icon2.png'
+import icon3 from './icon3.png'
+import icon4 from './icon4.png'
+import icon5 from './icon5.png'
+import icon6 from './icon6.png'
+import icon7 from './icon7.png'
+import icon8 from './icon8.png'
+import icon9 from './icon9.png'
+import icon10 from './icon10.png'
+import icon11 from './icon11.png'
+import icon12 from './icon12.png'
+
+
 
 
 export const company_logos = [
@@ -72,13 +87,25 @@ const assets = {
   sun_icon,
   moon_icon,
   airbnb_logo,
-  google_logo
+  google_logo,
+  icon1,
+  icon2,
+  icon3,
+  icon4,
+  icon5,
+  icon6,
+  icon7,
+  icon8,
+  icon9,
+  icon10,
+  icon11,
+  icon12,
 }
 
 export default assets
 
 export const teamData = [
-  { name: 'Haley Carter', title: 'CEO & founder', image: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200' },
+  { name: 'Yoshitha Udayanga', title: 'CEO & founder', image: port01 },
   { name: 'James Walker', title: 'Ads manager', image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200' },
   { name: 'Jessica Morgan', title: 'Vice president', image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop' },
   { name: 'Ashley Bennett', title: 'Marketing & sales', image: 'https://randomuser.me/api/portraits/women/10.jpg' },

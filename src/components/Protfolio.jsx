@@ -24,7 +24,10 @@ const Protfolio = () => {
           ))}
         </div>
     </div>
+         
+
   )
 }
+
 
 export default Protfolio
