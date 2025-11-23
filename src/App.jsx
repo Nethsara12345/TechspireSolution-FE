@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Hero from "./components/Hero"
+import AboutUs from './components/aboutus'
 import Servise from './components/servise'
 import Client from "./components/Client"
 import Protfolio from './components/Protfolio'
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/" element={
           <>
             <Hero />
+            <AboutUs />
             <Servise />
             <Client />
             <Protfolio />

@@ -42,6 +42,7 @@ import icon9 from './icon9.png'
 import icon10 from './icon10.png'
 import icon11 from './icon11.png'
 import icon12 from './icon12.png'
+import about from './about.jpg'
 
 
 
@@ -57,6 +58,7 @@ export const company_logos = [
 
 const assets = {
   logo,
+  about,
   logo1,
   arrow_icon,
   group_profile,
