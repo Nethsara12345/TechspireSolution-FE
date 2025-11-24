@@ -11,6 +11,7 @@ const AboutUs = () => {
           <div className="space-y-6">
             <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white">
               About Us
+              
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
               Welcome to Techspire Solutions! We are a team of passionate professionals dedicated to 
